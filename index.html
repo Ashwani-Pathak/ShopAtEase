@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopAtEase</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Navbar Styling */
+.navbar {
+  background-color: #29445f;
+
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  color: #3579b8;
+  margin-right: 10px;
+}
+
+/* Jumbotron Styling */
+.jumbotron {
+  background-color:aquamarine;
+  text-align: center;
+  padding: 50px;
+}
+
+.display-4 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.lead {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Products Section Styling */
+.container {
+  margin-top: 50px;
+  display: flex;
+}
+
+.card {
+  margin-bottom: 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 20px;
+}
+
+/* Login and Sign Up Section Styling */
+.col-md-6 {
+  margin-top: 50px;
+  display: inline-block;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-left: 0;
+  }
+
+  .col-md-6 {
+    margin-top: 0;
+
+  }
+}
+
+
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">ShopAtEase</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#jumbotron">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#products">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cart</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Favorites</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sign Up</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Intro Banner -->
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to ShopAtEase</h1>
+    <p class="lead">Discover the best products at unbeatable prices.</p>
+    <hr class="my-4">
+    <p>Shop now and enjoy a seamless online shopping experience.</p>
+    <a class="btn btn-primary btn-lg" href="#products" role="button">Shop Now</a>
+  </div>
+
+  <!-- Products Section -->
+  <div class="container">
+    <div class="row" id="products"></div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="download (1).jpg" class="card-img-top" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title">BOAT Premium Headphones</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-secondary">Add to Favorites</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="samsung.jpg" class="card-img-top" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title">Samsung galaxy Note 20 ultra</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-secondary">Add to Favorites</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="samtv.jpg" class="card-img-top" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title">Samsung neo 4k TV</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-secondary">Add to Favorites</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="iphone.jpg" class="card-img-top" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title">Apple Iphone 15 pro</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-secondary">Add to Favorites</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="download.jpg" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Apple Airpods</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-secondary">Add to Favorites</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="laptop.jpg" class="card-img-top" alt="Product 3">
+          <div class="card-body">
+            <h5 class="card-title">Asus  7 ZA</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-secondary">Add to Favorites</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Login and Sign Up Section -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Login</h2>
+          <button type="submit" class="btn btn-primary">LOGIN</button>
+        
+      </div>
+      <div class="col-md-6">
+        <h2>Sign Up</h2>
+        <form>
+          <!-- Add your sign up form fields here -->
+          <button type="submit" class="btn btn-primary">SIGN UP</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  
+</body>
+</html>
